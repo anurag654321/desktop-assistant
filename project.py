@@ -58,7 +58,7 @@ if __name__ == "__main__":
         if "open youtube" in voice.lower():
             webbrowser.open_new_tab("https://www.youtube.com")
         if "open code" in voice.lower():
-            os.startfile('C:/Users/anrag/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code')
+            os.system("code")
         if "open google" in voice.lower():
             webbrowser.open_new_tab("https://www.google.com")
         
